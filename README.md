@@ -10,7 +10,7 @@ I’m interested in software evaluation, scientific computing, biomedical data, 
 
 | Project | What it demonstrates |
 | --- | --- |
-| [RepoEval Lab](https://github.com/jaykrukar/repoeval-lab) · [case study](https://jaykrukar.github.io/portfolio-site/case-study-repoeval.html) | Python coding-task harness with external verifiers, timeout reporting, and two tested task examples. It is **not** a secure sandbox. |
+| [RepoEval Lab](https://github.com/jaykrukar/repoeval-lab) · [case study](https://jaykrukar.github.io/portfolio-site/case-study-repoeval.html) · [authoring kit](https://jaykrukar.github.io/portfolio-site/task-authoring-kit.html) | Python coding-task harness with external verifiers, timeout reporting, and two challenge examples, a task scaffold, and a verified authoring kit. It is **not** a secure sandbox. |
 | [BioSignal Lab](https://github.com/jaykrukar/biosignal-lab) · [case study](https://jaykrukar.github.io/portfolio-site/case-study-biosignal.html) | Synthetic waveform pipeline with subject-aware evaluation, Brier scoring, and subject-cluster bootstrap intervals. No real patient data. |
 | [UConn Course Seat Tracker](https://github.com/jaykrukar/pnb-3253w-alert) | Existing deployed browser automation with GitHub Actions and transition-based ntfy alerts. |
 | [QualityGate](https://github.com/jaykrukar/data-quality-cli) | Dependency-free CSV validation with numeric cross-field rules and bounded issue details. |
