@@ -1,29 +1,30 @@
-# Hi, I'm Jay 👋
+# Hi, I’m Jay
 
-I'm a University of Connecticut Physiology & Neurobiology student, undergraduate researcher, 911 EMT, and AI tasking contractor with experience through Outlier and Mercor. I'm building a public portfolio at the intersection of **software evaluation, Python tools, algorithms, and biomedical computing**.
+I’m a University of Connecticut student studying **Physiology & Neurobiology** (B.S., expected May 2027). My work also includes undergraduate research in LGBTQ+ health, approximately two years of project-based AI training work through Outlier and Mercor, and employment as a Connecticut 911 EMT.
 
-## Projects
+I’m interested in software evaluation, scientific computing, biomedical data, and tools that make results easier to reproduce and review.
 
-| Project | Focus | Stack |
-| --- | --- | --- |
-| [UConn Course Seat Tracker](https://github.com/jaykrukar/pnb-3253w-alert) | Existing, automated UConn class availability monitor with notifications | Python, Playwright, GitHub Actions, ntfy |
-| [RepoEval Lab](https://github.com/jaykrukar/repoeval-lab) | Reference solutions, external verifiers, structured coding-task evaluation | Python, pytest |
-| [BioSignal Lab](https://github.com/jaykrukar/biosignal-lab) | **Synthetic** waveform generation, feature extraction, subject-aware ML evaluation | Python, SciPy, scikit-learn |
-| [Algorithmic Challenges](https://github.com/jaykrukar/algorithmic-challenges) | C++17 reference algorithms and differential stress tests | C++, Python |
-| [QualityGate](https://github.com/jaykrukar/data-quality-cli) | Schema-driven CSV validation and JSON reports | Python |
-| [Portfolio Website](https://github.com/jaykrukar/portfolio-site) | Responsive, lightweight technical portfolio | HTML, CSS, JavaScript |
+[![RepoEval tests](https://github.com/jaykrukar/repoeval-lab/actions/workflows/tests.yml/badge.svg)](https://github.com/jaykrukar/repoeval-lab/actions/workflows/tests.yml) [![BioSignal tests](https://github.com/jaykrukar/biosignal-lab/actions/workflows/tests.yml/badge.svg)](https://github.com/jaykrukar/biosignal-lab/actions/workflows/tests.yml) [![Algorithm tests](https://github.com/jaykrukar/algorithmic-challenges/actions/workflows/tests.yml/badge.svg)](https://github.com/jaykrukar/algorithmic-challenges/actions/workflows/tests.yml) [![QualityGate tests](https://github.com/jaykrukar/data-quality-cli/actions/workflows/tests.yml/badge.svg)](https://github.com/jaykrukar/data-quality-cli/actions/workflows/tests.yml)
+
+## Selected projects
+
+| Project | What it demonstrates |
+| --- | --- |
+| [RepoEval Lab](https://github.com/jaykrukar/repoeval-lab) · [case study](https://jaykrukar.github.io/portfolio-site/case-study-repoeval.html) | Python coding-task harness with external verifiers, timeout reporting, and two tested task examples. It is **not** a secure sandbox. |
+| [BioSignal Lab](https://github.com/jaykrukar/biosignal-lab) · [case study](https://jaykrukar.github.io/portfolio-site/case-study-biosignal.html) | Synthetic waveform pipeline with subject-aware evaluation, Brier scoring, and subject-cluster bootstrap intervals. No real patient data. |
+| [UConn Course Seat Tracker](https://github.com/jaykrukar/pnb-3253w-alert) | Existing deployed browser automation with GitHub Actions and transition-based ntfy alerts. |
+| [QualityGate](https://github.com/jaykrukar/data-quality-cli) | Dependency-free CSV validation with numeric cross-field rules and bounded issue details. |
+| [Algorithmic Challenges](https://github.com/jaykrukar/algorithmic-challenges) | Three C++17 exercises with differential tests against independent Python oracles. |
 
 ## Background
 
-- **UConn:** B.S. in Physiology & Neurobiology, expected 2027
-- **Undergraduate research:** SHINE Lab (LGBTQ+ health); previous Kienzler Lab work
-- **AI tasking:** Outlier and Mercor, approximately two years of experience
+- **University of Connecticut:** Physiology & Neurobiology, B.S. expected May 2027
+- **Research:** UConn SHINE Lab; previous work in the Kienzler Lab
+- **AI tasking:** Outlier and Mercor project work, approximately two years
 - **Emergency care:** Connecticut 911 EMT
 
-## What I'm building and learning
+## How I approach technical work
 
-I care about making software **measurable, testable, and reproducible**, particularly in applied AI and scientific computing. My open repositories document assumptions, limits, and the checks used to validate results.
+I aim to define behavior clearly, test edge cases independently, keep data provenance visible, and state what the evidence does not establish. Several projects here were developed with AI assistance as learning work; their code and tests are public, but they should not be read as a claim of years of professional software engineering experience.
 
-**Provenance:** The UConn seat tracker predates this portfolio. The other linked repositories are **new AI-assisted learning prototypes** first prepared in November 2026. Their documentation distinguishes synthetic examples from real-world results and does not claim previous jobs, awards, or certifications that I haven't earned.
-
-*Personal and contractor information are kept out of these public projects.*
+**Portfolio:** [jaykrukar.github.io/portfolio-site](https://jaykrukar.github.io/portfolio-site/)
